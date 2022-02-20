@@ -68,3 +68,6 @@ app.get("/tinder/cards", (req, res) => {
 
 // Listeners
 app.listen(port, () => console.log(`Listening on localhost: ${port}`));
+
+// Heroku url for the database:
+// https://tinder-pk-back.herokuapp.com/
